@@ -1,0 +1,152 @@
+{
+  "generated_from_rows": 9011,
+  "changepoints": [
+    {
+      "name": "Global (full 1987-2022 series)",
+      "change_point_date": "2005-02-23",
+      "credible_interval": [
+        "2005-02-16",
+        "2005-03-02"
+      ],
+      "before_mean": 21.42,
+      "after_mean": 75.6,
+      "pct_change": 253.0,
+      "r_hat_tau": 1.0,
+      "nearby_events": [
+        {
+          "event_name": "US-led invasion of Iraq",
+          "start_date": "2003-03-20",
+          "category": "Geopolitical Conflict",
+          "days_from_changepoint": -706
+        }
+      ]
+    },
+    {
+      "name": "2008 Global Financial Crisis",
+      "change_point_date": "2008-10-03",
+      "credible_interval": [
+        "2008-10-01",
+        "2008-10-08"
+      ],
+      "before_mean": 117.8,
+      "after_mean": 53.05,
+      "pct_change": -55.0,
+      "r_hat_tau": 1.0,
+      "nearby_events": [
+        {
+          "event_name": "Collapse of Lehman Brothers / Global Financial Crisis",
+          "start_date": "2008-09-15",
+          "category": "Economic Shock",
+          "days_from_changepoint": -18
+        }
+      ],
+      "window": [
+        "2008-06-01",
+        "2008-12-31"
+      ]
+    },
+    {
+      "name": "2014 OPEC decision not to cut",
+      "change_point_date": "2014-11-26",
+      "credible_interval": [
+        "2014-11-12",
+        "2014-11-28"
+      ],
+      "before_mean": 88.84,
+      "after_mean": 63.72,
+      "pct_change": -28.3,
+      "r_hat_tau": 1.01,
+      "nearby_events": [
+        {
+          "event_name": "OPEC declines to cut production (Vienna meeting)",
+          "start_date": "2014-11-27",
+          "category": "OPEC Decision",
+          "days_from_changepoint": 1
+        }
+      ],
+      "window": [
+        "2014-09-01",
+        "2014-12-31"
+      ]
+    },
+    {
+      "name": "2020 COVID-19 / oil price war",
+      "change_point_date": "2020-03-06",
+      "credible_interval": [
+        "2020-03-05",
+        "2020-03-06"
+      ],
+      "before_mean": 59.14,
+      "after_mean": 29.2,
+      "pct_change": -50.6,
+      "r_hat_tau": 1.0,
+      "nearby_events": [
+        {
+          "event_name": "Saudi Arabia-Russia oil price war begins",
+          "start_date": "2020-03-08",
+          "category": "OPEC Decision",
+          "days_from_changepoint": 2
+        },
+        {
+          "event_name": "WTI futures turn negative amid COVID-19 demand collapse",
+          "start_date": "2020-04-20",
+          "category": "Economic Shock",
+          "days_from_changepoint": 45
+        }
+      ],
+      "window": [
+        "2020-01-01",
+        "2020-06-30"
+      ]
+    },
+    {
+      "name": "2022 Russia's invasion of Ukraine",
+      "change_point_date": "2022-02-03",
+      "credible_interval": [
+        "2022-02-02",
+        "2022-02-11"
+      ],
+      "before_mean": 81.37,
+      "after_mean": 109.35,
+      "pct_change": 34.4,
+      "r_hat_tau": 1.0,
+      "nearby_events": [
+        {
+          "event_name": "Russia's invasion of Ukraine",
+          "start_date": "2022-02-24",
+          "category": "Geopolitical Conflict",
+          "days_from_changepoint": 21
+        }
+      ],
+      "window": [
+        "2021-11-01",
+        "2022-05-31"
+      ]
+    }
+  ],
+  "volatility_changepoint": {
+    "name": "Volatility regime shift (log returns, 2019-10 to 2020-12)",
+    "change_point_date": "2020-05-18",
+    "credible_interval": [
+      "2020-05-12",
+      "2020-06-12"
+    ],
+    "sigma_before": 0.08656,
+    "sigma_after": 0.02416,
+    "pct_change": -72.1,
+    "r_hat_tau": 1.02
+  },
+  "overall_metrics": {
+    "date_range": [
+      "1987-05-20",
+      "2022-11-14"
+    ],
+    "n_observations": 9011,
+    "overall_mean_price": 48.42,
+    "overall_price_volatility_30d_avg": 0.02156,
+    "min_price": 9.1,
+    "min_price_date": "1998-12-10",
+    "max_price": 143.95,
+    "max_price_date": "2008-07-03"
+  }
+}

@@ -7,7 +7,5 @@ jupyter>=1.0
 ipykernel>=6.0
 nbformat>=5.9
 pytest>=7.4
-
-# Needed starting Task 2 (Bayesian change point modeling) — uncomment when you get there
-# pymc>=5.10
-# arviz>=0.17
+pymc>=5.10,<6
+arviz>=0.17,<1.0

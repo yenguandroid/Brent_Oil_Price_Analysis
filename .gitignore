@@ -27,6 +27,11 @@ htmlcov/
 .DS_Store
 Thumbs.db
 
+# Frontend (React/Vite)
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
 # Data (uncomment if your dataset is large/private and shouldn't be committed)
 # data/raw/*
 # !data/raw/.gitkeep
